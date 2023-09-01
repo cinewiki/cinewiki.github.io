@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10%;
+    color: rgb(226, 8, 8);
+}
+
+p {
+  color: white;
+}
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(210, 0, 84);
+    height: 60px;
+    text-align: start;
+    margin-bottom: 5%;
+}   
+.catalogo{
+    text-align: center;
+    margin: auto;
+}
+/* Classes dos filmes */
+.terror {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.drama {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10% 0 10% 0;    
+}
+.image {
+  display: block;
+  width: 250px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #a20000;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+p {
+    font-size: 20px;
+    color: white;
+}
+.container {
+position: relative;
+width: 50%;
+}
+.text {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: start;
+}
+.titulo h1{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
